@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_X01BD.mk
+    $(LOCAL_DIR)/ssos_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_X01BD-eng \
-    xtended_X01BD-user \
-    xtended_X01BD-userdebug
+    ssos_X01BD-eng \
+    ssos_X01BD-user \
+    ssos_X01BD-userdebug

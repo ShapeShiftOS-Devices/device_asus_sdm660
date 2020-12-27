@@ -57,7 +57,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/asus/sdm660
 TARGET_KERNEL_CONFIG := etherious_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 12.0.0
+#TARGET_KERNEL_CLANG_VERSION := 12.0.0
 
 # Treble
 BOARD_VNDK_VERSION := current
@@ -226,7 +226,7 @@ BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 VENDOR_SECURITY_PATCH := 2020-04-05
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # WiFi
