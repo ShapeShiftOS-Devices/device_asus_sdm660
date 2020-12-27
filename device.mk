@@ -455,3 +455,9 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
+
+#Platform
+PRODUCT_BOARD_PLATFORM := msm8998
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998
